@@ -13,6 +13,7 @@ console propel:install
 console cache:empty-all // run after adding twig files
 console dev:ide-auto-completion:generate // run after adding facade/factory related files
 npm run yves:watch //leave temminal open after run
+docker/sdk console twig:cache:warmer // run to prefill cache
 
 git checkout feature/STFF-6887-Header-revision // for checkout Attem's branch
 
